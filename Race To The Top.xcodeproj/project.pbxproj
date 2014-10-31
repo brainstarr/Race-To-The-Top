@@ -18,6 +18,7 @@
 		004AB78A1A0326E8009521D0 /* SpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 004AB7891A0326E8009521D0 /* SpaceShipView.m */; };
 		00BA4A381A04471C001B282F /* Main.ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BA4A371A04471C001B282F /* Main.ipad.storyboard */; };
 		00BA4A3A1A044B5C001B282F /* Mount_Fuji_and_Mount_Hoei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00BA4A391A044B5C001B282F /* Mount_Fuji_and_Mount_Hoei.jpg */; };
+		00BA4A3D1A044DCB001B282F /* MountainPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BA4A3C1A044DCB001B282F /* MountainPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		004AB7891A0326E8009521D0 /* SpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceShipView.m; sourceTree = "<group>"; };
 		00BA4A371A04471C001B282F /* Main.ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.ipad.storyboard; sourceTree = "<group>"; };
 		00BA4A391A044B5C001B282F /* Mount_Fuji_and_Mount_Hoei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mount_Fuji_and_Mount_Hoei.jpg; sourceTree = "<group>"; };
+		00BA4A3B1A044DCB001B282F /* MountainPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MountainPath.h; sourceTree = "<group>"; };
+		00BA4A3C1A044DCB001B282F /* MountainPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MountainPath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				004AB7641A032629009521D0 /* AppDelegate.m */,
 				004AB76C1A032629009521D0 /* Main.iphone.storyboard */,
 				00BA4A371A04471C001B282F /* Main.ipad.storyboard */,
+				00BA4A3B1A044DCB001B282F /* MountainPath.h */,
+				00BA4A3C1A044DCB001B282F /* MountainPath.m */,
 				004AB7881A0326E8009521D0 /* SpaceShipView.h */,
 				004AB7891A0326E8009521D0 /* SpaceShipView.m */,
 				004AB7691A032629009521D0 /* ViewController.h */,
@@ -240,6 +245,7 @@
 				004AB76B1A032629009521D0 /* ViewController.m in Sources */,
 				004AB7621A032629009521D0 /* main.m in Sources */,
 				004AB78A1A0326E8009521D0 /* SpaceShipView.m in Sources */,
+				00BA4A3D1A044DCB001B282F /* MountainPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
