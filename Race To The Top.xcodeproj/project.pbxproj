@@ -15,6 +15,7 @@
 		004AB7701A032629009521D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004AB76F1A032629009521D0 /* Images.xcassets */; };
 		004AB7731A032629009521D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 004AB7711A032629009521D0 /* LaunchScreen.xib */; };
 		004AB77F1A032629009521D0 /* Race_To_The_TopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004AB77E1A032629009521D0 /* Race_To_The_TopTests.m */; };
+		004AB78A1A0326E8009521D0 /* SpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 004AB7891A0326E8009521D0 /* SpaceShipView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		004AB7781A032629009521D0 /* Race To The TopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Race To The TopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		004AB77D1A032629009521D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		004AB77E1A032629009521D0 /* Race_To_The_TopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Race_To_The_TopTests.m; sourceTree = "<group>"; };
+		004AB7881A0326E8009521D0 /* SpaceShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceShipView.h; sourceTree = "<group>"; };
+		004AB7891A0326E8009521D0 /* SpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceShipView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				004AB7631A032629009521D0 /* AppDelegate.h */,
 				004AB7641A032629009521D0 /* AppDelegate.m */,
 				004AB76C1A032629009521D0 /* Main.storyboard */,
+				004AB7881A0326E8009521D0 /* SpaceShipView.h */,
+				004AB7891A0326E8009521D0 /* SpaceShipView.m */,
 				004AB7691A032629009521D0 /* ViewController.h */,
 				004AB76A1A032629009521D0 /* ViewController.m */,
 				004AB76F1A032629009521D0 /* Images.xcassets */,
@@ -226,6 +231,7 @@
 				004AB7651A032629009521D0 /* AppDelegate.m in Sources */,
 				004AB76B1A032629009521D0 /* ViewController.m in Sources */,
 				004AB7621A032629009521D0 /* main.m in Sources */,
+				004AB78A1A0326E8009521D0 /* SpaceShipView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
