@@ -19,7 +19,7 @@
     UIBezierPath *labyrinth = [UIBezierPath bezierPath];
     labyrinth.lineWidth = 4.0;
     [labyrinth moveToPoint:firstPoint];
-    [labyrinth moveToPoint:secondPoint];
+    [labyrinth addLineToPoint:secondPoint];
     
     [variousPaths addObject:labyrinth];
     

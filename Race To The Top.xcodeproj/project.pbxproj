@@ -11,14 +11,14 @@
 		004AB7651A032629009521D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 004AB7641A032629009521D0 /* AppDelegate.m */; };
 		004AB7681A032629009521D0 /* Race_To_The_Top.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 004AB7661A032629009521D0 /* Race_To_The_Top.xcdatamodeld */; };
 		004AB76B1A032629009521D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 004AB76A1A032629009521D0 /* ViewController.m */; };
-		004AB76E1A032629009521D0 /* Main.iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004AB76C1A032629009521D0 /* Main.iphone.storyboard */; };
 		004AB7701A032629009521D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004AB76F1A032629009521D0 /* Images.xcassets */; };
 		004AB7731A032629009521D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 004AB7711A032629009521D0 /* LaunchScreen.xib */; };
 		004AB77F1A032629009521D0 /* Race_To_The_TopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004AB77E1A032629009521D0 /* Race_To_The_TopTests.m */; };
 		004AB78A1A0326E8009521D0 /* SpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 004AB7891A0326E8009521D0 /* SpaceShipView.m */; };
-		00BA4A381A04471C001B282F /* Main.ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BA4A371A04471C001B282F /* Main.ipad.storyboard */; };
+		00BA4A381A04471C001B282F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BA4A371A04471C001B282F /* Main.storyboard */; };
 		00BA4A3A1A044B5C001B282F /* Mount_Fuji_and_Mount_Hoei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00BA4A391A044B5C001B282F /* Mount_Fuji_and_Mount_Hoei.jpg */; };
 		00BA4A3D1A044DCB001B282F /* MountainPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BA4A3C1A044DCB001B282F /* MountainPath.m */; };
+		00BA4A401A0456F2001B282F /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BA4A3F1A0456F2001B282F /* PathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		004AB7671A032629009521D0 /* Race_To_The_Top.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Race_To_The_Top.xcdatamodel; sourceTree = "<group>"; };
 		004AB7691A032629009521D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		004AB76A1A032629009521D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		004AB76D1A032629009521D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.iphone.storyboard; sourceTree = "<group>"; };
 		004AB76F1A032629009521D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		004AB7721A032629009521D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		004AB7781A032629009521D0 /* Race To The TopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Race To The TopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,10 +47,12 @@
 		004AB77E1A032629009521D0 /* Race_To_The_TopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Race_To_The_TopTests.m; sourceTree = "<group>"; };
 		004AB7881A0326E8009521D0 /* SpaceShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceShipView.h; sourceTree = "<group>"; };
 		004AB7891A0326E8009521D0 /* SpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceShipView.m; sourceTree = "<group>"; };
-		00BA4A371A04471C001B282F /* Main.ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.ipad.storyboard; sourceTree = "<group>"; };
+		00BA4A371A04471C001B282F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		00BA4A391A044B5C001B282F /* Mount_Fuji_and_Mount_Hoei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mount_Fuji_and_Mount_Hoei.jpg; sourceTree = "<group>"; };
 		00BA4A3B1A044DCB001B282F /* MountainPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MountainPath.h; sourceTree = "<group>"; };
 		00BA4A3C1A044DCB001B282F /* MountainPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MountainPath.m; sourceTree = "<group>"; };
+		00BA4A3E1A0456F2001B282F /* PathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathView.h; sourceTree = "<group>"; };
+		00BA4A3F1A0456F2001B282F /* PathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +96,9 @@
 			children = (
 				004AB7631A032629009521D0 /* AppDelegate.h */,
 				004AB7641A032629009521D0 /* AppDelegate.m */,
-				004AB76C1A032629009521D0 /* Main.iphone.storyboard */,
-				00BA4A371A04471C001B282F /* Main.ipad.storyboard */,
+				00BA4A371A04471C001B282F /* Main.storyboard */,
+				00BA4A3E1A0456F2001B282F /* PathView.h */,
+				00BA4A3F1A0456F2001B282F /* PathView.m */,
 				00BA4A3B1A044DCB001B282F /* MountainPath.h */,
 				00BA4A3C1A044DCB001B282F /* MountainPath.m */,
 				004AB7881A0326E8009521D0 /* SpaceShipView.h */,
@@ -218,8 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				004AB76E1A032629009521D0 /* Main.iphone.storyboard in Resources */,
-				00BA4A381A04471C001B282F /* Main.ipad.storyboard in Resources */,
+				00BA4A381A04471C001B282F /* Main.storyboard in Resources */,
 				00BA4A3A1A044B5C001B282F /* Mount_Fuji_and_Mount_Hoei.jpg in Resources */,
 				004AB7731A032629009521D0 /* LaunchScreen.xib in Resources */,
 				004AB7701A032629009521D0 /* Images.xcassets in Resources */,
@@ -245,6 +246,7 @@
 				004AB76B1A032629009521D0 /* ViewController.m in Sources */,
 				004AB7621A032629009521D0 /* main.m in Sources */,
 				004AB78A1A0326E8009521D0 /* SpaceShipView.m in Sources */,
+				00BA4A401A0456F2001B282F /* PathView.m in Sources */,
 				00BA4A3D1A044DCB001B282F /* MountainPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,14 +270,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		004AB76C1A032629009521D0 /* Main.iphone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				004AB76D1A032629009521D0 /* Base */,
-			);
-			name = Main.iphone.storyboard;
-			sourceTree = "<group>";
-		};
 		004AB7711A032629009521D0 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
