@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "SpaceShipView.h"
+#import "PathView.h"
 
 @interface ViewController ()
+
+//@property (strong, nonatomic) IBOutlet PathView *pathView;
 
 @end
 

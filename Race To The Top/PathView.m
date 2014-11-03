@@ -11,23 +11,31 @@
 
 @implementation PathView
 
-//- (id)initWithFrame:(CGRect)frame
-//{
-//    self = [super initWithFrame:frame];
-//    if (self) {
-//        // Initialization code
-//    }
-//    return self;
-//}
-//
-///* We override the method initWithCoder since this view will be initialized from the storyboard. Call the setup method to set the background color. */
-//-(id)initWithCoder:(NSCoder *)aDecoder
-//{
-//    self = [super initWithCoder:aDecoder];
-//    if (self){
-//    }
-//    return self;
-//}
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        // Initialization code
+        [self setup];
+    }
+    return self;
+}
+
+-(id)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super initWithCoder:aDecoder];
+    if (self){
+        [self setup];
+    }
+    return self;
+}
+
+-(void)setup
+{
+    self.backgroundColor = [UIColor clearColor];
+}
+
+
 
 
 // Only override drawRect: if you perform custom drawing.
